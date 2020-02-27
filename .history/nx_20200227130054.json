@@ -1,0 +1,42 @@
+{
+  "npmScope": "fractalcrm",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "fractal-crm-e2e": {
+      "tags": []
+    },
+    "fractal-crm": {
+      "tags": []
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    },
+    "schemas": {
+      "tags": []
+    },
+    "dto": {
+      "tags": []
+    },
+    "enums": {
+      "tags": []
+    },
+    "utilities": {
+      "tags": []
+    },
+    "mongoose-models": {
+      "tags": []
+    },
+    "interfaces": {
+      "tags": []
+    }
+  }
+}

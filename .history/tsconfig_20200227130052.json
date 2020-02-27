@@ -1,0 +1,72 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2018",
+    "module": "esnext",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@fractalcrm/api-interfaces": [
+        "libs/api-interfaces/src/index.ts"
+      ],
+      "@fractalcrm/schemas": [
+        "libs/schemas/src/index.ts"
+      ],
+      "@fractalcrm/dto": [
+        "libs/dto/src/index.ts"
+      ],
+      "@fractalcrm/enums": [
+        "libs/enums/src/index.ts"
+      ],
+      "@fractalcrm/utilities": [
+        "libs/utilities/src/index.ts"
+      ],
+      "@fractalcrm/mongoose-models": [
+        "libs/mongoose-models/src/index.ts"
+      ],
+      "@fractalcrm/services": [
+        "libs/services/src/index.ts"
+      ],
+      "@fractalcrm/components": [
+        "libs/components/src/index.ts"
+      ],
+      "@fractalcrm/core": [
+        "libs/core/src/index.ts"
+      ],
+      "@fractalcrm/theme": [
+        "libs/theme/src/index.ts"
+      ],
+      "@fractalcrm/pages": [
+        "libs/pages/src/index.ts"
+      ],
+      "@fractalcrm/config": [
+        "libs/config/src/index.ts"
+      ],
+      "@fractalcrm/nebular": [
+        "libs/nebular/src/index.ts"
+      ],
+      "@fractalcrm/interfaces": [
+        "libs/interfaces/src/index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}
